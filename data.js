@@ -22,30 +22,112 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 2048,
+      "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": 0.5908441242261304,
-        "pitch": 0.28741583317505004,
-        "fov": 1.3378744097411812
+        "yaw": 0.0819131789462677,
+        "pitch": 0.20276445366205564,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 0.4176229766618125,
-          "pitch": 0.21785997870520823,
+          "yaw": -0.06532545126452227,
+          "pitch": 0.03779244574572971,
           "rotation": 0,
-          "target": "1-r3"
+          "target": "2-corridor"
         },
         {
-          "yaw": 2.7278696195592307,
-          "pitch": 0.15635892987654998,
+          "yaw": 2.8060814569332138,
+          "pitch": 0.12011001635951501,
           "rotation": 0,
-          "target": "2-panorama"
+          "target": "1-outside"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-r3",
+      "id": "1-outside",
+      "name": "Outside",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.7428210118797445,
+          "pitch": -0.030503511343736633,
+          "rotation": 0,
+          "target": "0-living-room"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-corridor",
+      "name": "Corridor",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 0.4336917721042042,
+        "pitch": 0.04445448183619405,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.4768614425119964,
+          "pitch": 0.009845069491746017,
+          "rotation": 0,
+          "target": "0-living-room"
+        },
+        {
+          "yaw": 1.249393963767119,
+          "pitch": 0.04507980227702468,
+          "rotation": 0,
+          "target": "3-r3"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "3-r3",
       "name": "R3",
       "levels": [
         {
@@ -66,7 +148,7 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 2048,
+      "faceSize": 2000,
       "initialViewParameters": {
         "pitch": 0,
         "yaw": 0,
@@ -74,58 +156,20 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -3.1211959525290247,
-          "pitch": 0.14459051857003935,
+          "yaw": -3.060316680150528,
+          "pitch": 0.21115623531034444,
           "rotation": 0,
-          "target": "0-living-room"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-panorama",
-      "name": "Panorama",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.7448485395080375,
-          "pitch": -0.0032065152109872486,
-          "rotation": 0,
-          "target": "0-living-room"
+          "target": "2-corridor"
         }
       ],
       "infoHotspots": []
     }
   ],
-  "name": "Home",
+  "name": "Project Title",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
-    "fullscreenButton": true,
-    "viewControlButtons": true
+    "fullscreenButton": false,
+    "viewControlButtons": false
   }
 };
