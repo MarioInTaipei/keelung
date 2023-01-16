@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-living-room",
-      "name": "Living room",
+      "id": "0-pxl_20220220_045517185photosphere",
+      "name": "PXL_20220220_045517185.PHOTOSPHERE",
       "levels": [
         {
           "tileSize": 256,
@@ -24,29 +24,23 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": 0.0819131789462677,
-        "pitch": 0.20276445366205564,
-        "fov": 1.5707963267948966
+        "yaw": -2.367155325219839,
+        "pitch": 0.1996333288050529,
+        "fov": 1.3268945324871384
       },
       "linkHotspots": [
         {
-          "yaw": -0.06532545126452227,
-          "pitch": 0.03779244574572971,
+          "yaw": -0.06682189110285819,
+          "pitch": 0.044212835178477405,
           "rotation": 0,
-          "target": "2-corridor"
-        },
-        {
-          "yaw": 2.8060814569332138,
-          "pitch": 0.12011001635951501,
-          "rotation": 0,
-          "target": "1-outside"
+          "target": "1-pxl_20220220_044843949photosphere"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-outside",
-      "name": "Outside",
+      "id": "1-pxl_20220220_044843949photosphere",
+      "name": "PXL_20220220_044843949.PHOTOSPHERE",
       "levels": [
         {
           "tileSize": 256,
@@ -74,92 +68,10 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.7428210118797445,
-          "pitch": -0.030503511343736633,
+          "yaw": 1.4667255865654294,
+          "pitch": 0.016449877871041352,
           "rotation": 0,
-          "target": "0-living-room"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-corridor",
-      "name": "Corridor",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2000,
-      "initialViewParameters": {
-        "yaw": 0.4336917721042042,
-        "pitch": 0.04445448183619405,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.4768614425119964,
-          "pitch": 0.009845069491746017,
-          "rotation": 0,
-          "target": "0-living-room"
-        },
-        {
-          "yaw": 1.249393963767119,
-          "pitch": 0.04507980227702468,
-          "rotation": 0,
-          "target": "3-r3"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "3-r3",
-      "name": "R3",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2000,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -3.060316680150528,
-          "pitch": 0.21115623531034444,
-          "rotation": 0,
-          "target": "2-corridor"
+          "target": "0-pxl_20220220_045517185photosphere"
         }
       ],
       "infoHotspots": []
